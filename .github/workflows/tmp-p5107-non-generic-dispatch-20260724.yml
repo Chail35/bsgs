@@ -23,17 +23,33 @@ jobs:
         shell: bash
         run: |
           mkdir -p research/p5107_non_generic_levers/outputs
+          : > research/p5107_non_generic_levers/outputs/stderr.txt
+          : > research/p5107_non_generic_levers/outputs/stdout.txt
           set +e
           python research/p5107_non_generic_levers/run_experiments.py \
-            > research/p5107_non_generic_levers/outputs/stdout.txt \
-            2> research/p5107_non_generic_levers/outputs/stderr.txt
-          status=$?
+            >> research/p5107_non_generic_levers/outputs/stdout.txt \
+            2>> research/p5107_non_generic_levers/outputs/stderr.txt
+          status1=$?
+          python research/p5107_non_generic_levers/index_calculus_attack.py \
+            >> research/p5107_non_generic_levers/outputs/stdout.txt \
+            2>> research/p5107_non_generic_levers/outputs/stderr.txt
+          status2=$?
+          status=$(( status1 != 0 ? status1 : status2 ))
           echo "$status" > research/p5107_non_generic_levers/outputs/exit_status.txt
           echo "exit_status=$status" >> "$GITHUB_OUTPUT"
+          cd research/p5107_non_generic_levers
+          rm -f outputs/p5107_non_generic_levers_complete_20260724.zip outputs/p5107_non_generic_levers_complete_20260724.zip.sha256
+          zip -q outputs/p5107_non_generic_levers_complete_20260724.zip \
+            run_experiments.py index_calculus_attack.py \
+            outputs/results.json outputs/factor_base_summary.csv outputs/REPORT.md \
+            outputs/index_calculus_results.json outputs/INDEX_CALCULUS_REPORT.md \
+            outputs/stdout.txt outputs/stderr.txt outputs/exit_status.txt
+          sha256sum outputs/p5107_non_generic_levers_complete_20260724.zip \
+            > outputs/p5107_non_generic_levers_complete_20260724.zip.sha256
           echo '--- stderr ---'
-          cat research/p5107_non_generic_levers/outputs/stderr.txt || true
+          cat outputs/stderr.txt || true
           echo '--- stdout tail ---'
-          tail -n 80 research/p5107_non_generic_levers/outputs/stdout.txt || true
+          tail -n 100 outputs/stdout.txt || true
           exit 0
       - name: Commit diagnostic and result receipts to isolated branch
         shell: bash
@@ -41,17 +57,17 @@ jobs:
           git config user.name 'openai-research-runner'
           git config user.email 'research-runner@users.noreply.github.com'
           git add research/p5107_non_generic_levers/outputs
-          git commit -m 'Record p5107 experiment receipts [skip ci]' || true
+          git commit -m 'Record complete p5107 experiment receipts [skip ci]' || true
           git push origin HEAD:research/p5107-non-generic-levers-20260724
       - name: Show receipts
         if: always()
         run: |
           find research/p5107_non_generic_levers/outputs -maxdepth 1 -type f -printf '%f %s bytes\n' | sort || true
-          cat research/p5107_non_generic_levers/outputs/p5107_non_generic_levers_20260724.zip.sha256 || true
+          cat research/p5107_non_generic_levers/outputs/p5107_non_generic_levers_complete_20260724.zip.sha256 || true
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: p5107-non-generic-levers-20260724
+          name: p5107-non-generic-levers-complete-20260724
           path: research/p5107_non_generic_levers/outputs/
           if-no-files-found: error
           retention-days: 30
