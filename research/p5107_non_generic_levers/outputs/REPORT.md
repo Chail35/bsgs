@@ -55,7 +55,7 @@
     ],
     "total_degree": 12,
     "terms": 191,
-    "construction_seconds": 0.1588271179999765
+    "construction_seconds": 0.1760355779999827
   },
   "benchmarks": [
     {
@@ -67,7 +67,7 @@
       ],
       "bezout_monomial_bound": 16,
       "groebner_status": "completed",
-      "groebner_seconds": 0.005082140000013169,
+      "groebner_seconds": 0.005262006000009478,
       "basis_count": 1,
       "basis_degrees": [
         0
@@ -76,7 +76,7 @@
         1
       ],
       "resultant_status": "completed",
-      "resultant_seconds": 0.00481443399996806,
+      "resultant_seconds": 0.005490500999997039,
       "resultant_degree": 6,
       "resultant_terms": 7,
       "gcd_degree": 0
@@ -90,7 +90,7 @@
       ],
       "bezout_monomial_bound": 100,
       "groebner_status": "completed",
-      "groebner_seconds": 0.007905259999972714,
+      "groebner_seconds": 0.009695196000023998,
       "basis_count": 1,
       "basis_degrees": [
         0
@@ -99,7 +99,7 @@
         1
       ],
       "resultant_status": "completed",
-      "resultant_seconds": 0.01035739100001365,
+      "resultant_seconds": 0.012259273999973175,
       "resultant_degree": 18,
       "resultant_terms": 19,
       "gcd_degree": 0
@@ -113,7 +113,7 @@
       ],
       "bezout_monomial_bound": 361,
       "groebner_status": "completed",
-      "groebner_seconds": 0.04800942000002806,
+      "groebner_seconds": 0.05568371199998978,
       "basis_count": 1,
       "basis_degrees": [
         0
@@ -122,7 +122,7 @@
         1
       ],
       "resultant_status": "completed",
-      "resultant_seconds": 0.028661353999950734,
+      "resultant_seconds": 0.033554875999982414,
       "resultant_degree": 36,
       "resultant_terms": 37,
       "gcd_degree": 0
@@ -136,7 +136,7 @@
       ],
       "bezout_monomial_bound": 1156,
       "groebner_status": "completed",
-      "groebner_seconds": 0.18440374200002907,
+      "groebner_seconds": 0.21278522900001917,
       "basis_count": 1,
       "basis_degrees": [
         0
@@ -145,7 +145,7 @@
         1
       ],
       "resultant_status": "completed",
-      "resultant_seconds": 0.09899004499999364,
+      "resultant_seconds": 0.11011090400000967,
       "resultant_degree": 66,
       "resultant_terms": 67,
       "gcd_degree": 0
@@ -159,7 +159,7 @@
       ],
       "bezout_monomial_bound": 1600,
       "groebner_status": "completed",
-      "groebner_seconds": 0.284276675000001,
+      "groebner_seconds": 0.3407048279999856,
       "basis_count": 2,
       "basis_degrees": [
         1,
@@ -170,7 +170,7 @@
         2
       ],
       "resultant_status": "completed",
-      "resultant_seconds": 0.1524948629999585,
+      "resultant_seconds": 0.17221016100000952,
       "resultant_degree": 78,
       "resultant_terms": 79,
       "gcd_degree": 1
