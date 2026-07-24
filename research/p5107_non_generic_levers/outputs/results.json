@@ -1,0 +1,1941 @@
+{
+  "instance": {
+    "p": 5107,
+    "N": 4993,
+    "curve": "y^2=x^3+7",
+    "G": [
+      2,
+      530
+    ],
+    "target": [
+      3711,
+      748
+    ],
+    "mpsi": 2344,
+    "mpsi_order_mod_N": 4992
+  },
+  "cm_collapse": {
+    "roots": [
+      {
+        "zeta": 311,
+        "lambda_mod_N": 2342,
+        "lambda_poly": 0,
+        "point": [
+          622,
+          530
+        ]
+      },
+      {
+        "zeta": 4795,
+        "lambda_mod_N": 2650,
+        "lambda_poly": 0,
+        "point": [
+          4483,
+          530
+        ]
+      }
+    ],
+    "chosen": {
+      "zeta": 311,
+      "lambda": 2342
+    },
+    "theorem": "Every Z[omega] endomorphism a+b*omega restricts on cyclic E(F_p) to scalar a+b*lambda mod N."
+  },
+  "factor_bases": [
+    {
+      "name": "quotient_reps_832",
+      "size": 832,
+      "point_size": 832,
+      "unique_x": 832,
+      "unique_t": 832,
+      "negation_closed": false,
+      "mu6_closed": false,
+      "known_scalar_parametrization": true,
+      "sumsets": [
+        {
+          "m": 1,
+          "coverage": 832,
+          "probability": 0.16663328660124174,
+          "sample_hits": 337,
+          "sample_total": 2000,
+          "representation_min": 1,
+          "representation_max": 1,
+          "representation_mean": 1.0
+        },
+        {
+          "m": 2,
+          "coverage": 4992,
+          "probability": 0.9997997196074504,
+          "sample_hits": 2000,
+          "sample_total": 2000,
+          "representation_min": 92,
+          "representation_max": 164,
+          "representation_mean": 138.66666666666666
+        },
+        {
+          "m": 3,
+          "coverage": 4993,
+          "probability": 1.0,
+          "sample_hits": 2000,
+          "sample_total": 2000,
+          "representation_min": 94224,
+          "representation_max": 116745,
+          "representation_mean": 115347.56018425796
+        }
+      ]
+    },
+    {
+      "name": "lattes_full_nonzero",
+      "size": 4992,
+      "point_size": 4992,
+      "unique_x": 2496,
+      "unique_t": 832,
+      "negation_closed": true,
+      "mu6_closed": true,
+      "known_scalar_parametrization": true,
+      "sumsets": "skipped_size_gt_900"
+    },
+    {
+      "name": "suborbit13_reps",
+      "size": 13,
+      "point_size": 13,
+      "unique_x": 13,
+      "unique_t": 13,
+      "negation_closed": false,
+      "mu6_closed": false,
+      "known_scalar_parametrization": true,
+      "sumsets": [
+        {
+          "m": 1,
+          "coverage": 13,
+          "probability": 0.0026036451031444022,
+          "sample_hits": 5,
+          "sample_total": 2000,
+          "representation_min": 1,
+          "representation_max": 1,
+          "representation_mean": 1.0
+        },
+        {
+          "m": 2,
+          "coverage": 88,
+          "probability": 0.017624674544362107,
+          "sample_hits": 42,
+          "sample_total": 2000,
+          "representation_min": 1,
+          "representation_max": 4,
+          "representation_mean": 1.9204545454545454
+        },
+        {
+          "m": 3,
+          "coverage": 407,
+          "probability": 0.08151411976767474,
+          "sample_hits": 182,
+          "sample_total": 2000,
+          "representation_min": 1,
+          "representation_max": 12,
+          "representation_mean": 5.398034398034398
+        },
+        {
+          "m": 4,
+          "coverage": 1376,
+          "probability": 0.2755858201482075,
+          "sample_hits": 539,
+          "sample_total": 2000,
+          "representation_min": 1,
+          "representation_max": 96,
+          "representation_mean": 20.756540697674417
+        }
+      ]
+    },
+    {
+      "name": "suborbit64_reps",
+      "size": 64,
+      "point_size": 64,
+      "unique_x": 64,
+      "unique_t": 64,
+      "negation_closed": false,
+      "mu6_closed": false,
+      "known_scalar_parametrization": true,
+      "sumsets": [
+        {
+          "m": 1,
+          "coverage": 64,
+          "probability": 0.012817945123172442,
+          "sample_hits": 35,
+          "sample_total": 2000,
+          "representation_min": 1,
+          "representation_max": 1,
+          "representation_mean": 1.0
+        },
+        {
+          "m": 2,
+          "coverage": 1728,
+          "probability": 0.3460845183256559,
+          "sample_hits": 689,
+          "sample_total": 2000,
+          "representation_min": 1,
+          "representation_max": 6,
+          "representation_mean": 2.3703703703703702
+        },
+        {
+          "m": 3,
+          "coverage": 4993,
+          "probability": 1.0,
+          "sample_hits": 2000,
+          "sample_total": 2000,
+          "representation_min": 12,
+          "representation_max": 105,
+          "representation_mean": 52.50230322451432
+        }
+      ]
+    },
+    {
+      "name": "suborbit13_mu6_saturated",
+      "size": 78,
+      "point_size": 78,
+      "unique_x": 39,
+      "unique_t": 13,
+      "negation_closed": true,
+      "mu6_closed": true,
+      "known_scalar_parametrization": true,
+      "sumsets": [
+        {
+          "m": 1,
+          "coverage": 78,
+          "probability": 0.015621870618866412,
+          "sample_hits": 25,
+          "sample_total": 2000,
+          "representation_min": 1,
+          "representation_max": 1,
+          "representation_mean": 1.0
+        },
+        {
+          "m": 2,
+          "coverage": 2419,
+          "probability": 0.48447826957740836,
+          "sample_hits": 1003,
+          "sample_total": 2000,
+          "representation_min": 1,
+          "representation_max": 78,
+          "representation_mean": 2.5150888797023563
+        },
+        {
+          "m": 3,
+          "coverage": 4993,
+          "probability": 1.0,
+          "sample_hits": 2000,
+          "sample_total": 2000,
+          "representation_min": 51,
+          "representation_max": 303,
+          "representation_mean": 95.04346084518326
+        }
+      ]
+    },
+    {
+      "name": "suborbit64_mu6_saturated",
+      "size": 384,
+      "point_size": 384,
+      "unique_x": 192,
+      "unique_t": 64,
+      "negation_closed": true,
+      "mu6_closed": true,
+      "known_scalar_parametrization": true,
+      "sumsets": [
+        {
+          "m": 1,
+          "coverage": 384,
+          "probability": 0.07690767073903465,
+          "sample_hits": 183,
+          "sample_total": 2000,
+          "representation_min": 1,
+          "representation_max": 1,
+          "representation_mean": 1.0
+        },
+        {
+          "m": 2,
+          "coverage": 4993,
+          "probability": 1.0,
+          "sample_hits": 2000,
+          "sample_total": 2000,
+          "representation_min": 18,
+          "representation_max": 384,
+          "representation_mean": 29.532545563789306
+        }
+      ]
+    },
+    {
+      "name": "quotient_prefix_4",
+      "size": 4,
+      "point_size": 4,
+      "unique_x": 4,
+      "unique_t": 4,
+      "negation_closed": false,
+      "mu6_closed": false,
+      "known_scalar_parametrization": true,
+      "sumsets": [
+        {
+          "m": 1,
+          "coverage": 4,
+          "probability": 0.0008011215701982776,
+          "sample_hits": 0,
+          "sample_total": 2000,
+          "representation_min": 1,
+          "representation_max": 1,
+          "representation_mean": 1.0
+        },
+        {
+          "m": 2,
+          "coverage": 10,
+          "probability": 0.002002803925495694,
+          "sample_hits": 3,
+          "sample_total": 2000,
+          "representation_min": 1,
+          "representation_max": 2,
+          "representation_mean": 1.6
+        },
+        {
+          "m": 3,
+          "coverage": 20,
+          "probability": 0.004005607850991388,
+          "sample_hits": 5,
+          "sample_total": 2000,
+          "representation_min": 1,
+          "representation_max": 6,
+          "representation_mean": 3.2
+        },
+        {
+          "m": 4,
+          "coverage": 35,
+          "probability": 0.007009813739234929,
+          "sample_hits": 18,
+          "sample_total": 2000,
+          "representation_min": 1,
+          "representation_max": 24,
+          "representation_mean": 7.314285714285714
+        }
+      ]
+    },
+    {
+      "name": "quotient_prefix_8",
+      "size": 8,
+      "point_size": 8,
+      "unique_x": 8,
+      "unique_t": 8,
+      "negation_closed": false,
+      "mu6_closed": false,
+      "known_scalar_parametrization": true,
+      "sumsets": [
+        {
+          "m": 1,
+          "coverage": 8,
+          "probability": 0.0016022431403965552,
+          "sample_hits": 1,
+          "sample_total": 2000,
+          "representation_min": 1,
+          "representation_max": 1,
+          "representation_mean": 1.0
+        },
+        {
+          "m": 2,
+          "coverage": 36,
+          "probability": 0.0072100941317844985,
+          "sample_hits": 19,
+          "sample_total": 2000,
+          "representation_min": 1,
+          "representation_max": 2,
+          "representation_mean": 1.7777777777777777
+        },
+        {
+          "m": 3,
+          "coverage": 119,
+          "probability": 0.02383336671339876,
+          "sample_hits": 61,
+          "sample_total": 2000,
+          "representation_min": 1,
+          "representation_max": 9,
+          "representation_mean": 4.302521008403361
+        },
+        {
+          "m": 4,
+          "coverage": 320,
+          "probability": 0.06408972561586221,
+          "sample_hits": 118,
+          "sample_total": 2000,
+          "representation_min": 1,
+          "representation_max": 36,
+          "representation_mean": 12.8
+        }
+      ]
+    },
+    {
+      "name": "quotient_prefix_13",
+      "size": 13,
+      "point_size": 13,
+      "unique_x": 13,
+      "unique_t": 13,
+      "negation_closed": false,
+      "mu6_closed": false,
+      "known_scalar_parametrization": true,
+      "sumsets": [
+        {
+          "m": 1,
+          "coverage": 13,
+          "probability": 0.0026036451031444022,
+          "sample_hits": 2,
+          "sample_total": 2000,
+          "representation_min": 1,
+          "representation_max": 1,
+          "representation_mean": 1.0
+        },
+        {
+          "m": 2,
+          "coverage": 91,
+          "probability": 0.018225515722010813,
+          "sample_hits": 34,
+          "sample_total": 2000,
+          "representation_min": 1,
+          "representation_max": 2,
+          "representation_mean": 1.8571428571428572
+        },
+        {
+          "m": 3,
+          "coverage": 443,
+          "probability": 0.08872421389945924,
+          "sample_hits": 188,
+          "sample_total": 2000,
+          "representation_min": 1,
+          "representation_max": 12,
+          "representation_mean": 4.959367945823928
+        },
+        {
+          "m": 4,
+          "coverage": 1583,
+          "probability": 0.31704386140596835,
+          "sample_hits": 632,
+          "sample_total": 2000,
+          "representation_min": 1,
+          "representation_max": 60,
+          "representation_mean": 18.042324699936827
+        }
+      ]
+    },
+    {
+      "name": "quotient_prefix_16",
+      "size": 16,
+      "point_size": 16,
+      "unique_x": 16,
+      "unique_t": 16,
+      "negation_closed": false,
+      "mu6_closed": false,
+      "known_scalar_parametrization": true,
+      "sumsets": [
+        {
+          "m": 1,
+          "coverage": 16,
+          "probability": 0.0032044862807931104,
+          "sample_hits": 4,
+          "sample_total": 2000,
+          "representation_min": 1,
+          "representation_max": 1,
+          "representation_mean": 1.0
+        },
+        {
+          "m": 2,
+          "coverage": 136,
+          "probability": 0.02723813338674144,
+          "sample_hits": 45,
+          "sample_total": 2000,
+          "representation_min": 1,
+          "representation_max": 2,
+          "representation_mean": 1.8823529411764706
+        },
+        {
+          "m": 3,
+          "coverage": 782,
+          "probability": 0.15661926697376327,
+          "sample_hits": 343,
+          "sample_total": 2000,
+          "representation_min": 1,
+          "representation_max": 12,
+          "representation_mean": 5.2378516624040925
+        },
+        {
+          "m": 4,
+          "coverage": 2873,
+          "probability": 0.5754055677949129,
+          "sample_hits": 1138,
+          "sample_total": 2000,
+          "representation_min": 1,
+          "representation_max": 84,
+          "representation_mean": 22.810998955795338
+        }
+      ]
+    },
+    {
+      "name": "quotient_prefix_32",
+      "size": 32,
+      "point_size": 32,
+      "unique_x": 32,
+      "unique_t": 32,
+      "negation_closed": false,
+      "mu6_closed": false,
+      "known_scalar_parametrization": true,
+      "sumsets": [
+        {
+          "m": 1,
+          "coverage": 32,
+          "probability": 0.006408972561586221,
+          "sample_hits": 11,
+          "sample_total": 2000,
+          "representation_min": 1,
+          "representation_max": 1,
+          "representation_mean": 1.0
+        },
+        {
+          "m": 2,
+          "coverage": 508,
+          "probability": 0.10174243941518125,
+          "sample_hits": 194,
+          "sample_total": 2000,
+          "representation_min": 1,
+          "representation_max": 4,
+          "representation_mean": 2.015748031496063
+        },
+        {
+          "m": 3,
+          "coverage": 3564,
+          "probability": 0.7137993190466654,
+          "sample_hits": 1443,
+          "sample_total": 2000,
+          "representation_min": 1,
+          "representation_max": 36,
+          "representation_mean": 9.194163860830528
+        },
+        {
+          "m": 4,
+          "coverage": 4993,
+          "probability": 1.0,
+          "sample_hits": 2000,
+          "sample_total": 2000,
+          "representation_min": 24,
+          "representation_max": 480,
+          "representation_mean": 210.00921289805729
+        }
+      ]
+    },
+    {
+      "name": "quotient_prefix_64",
+      "size": 64,
+      "point_size": 64,
+      "unique_x": 64,
+      "unique_t": 64,
+      "negation_closed": false,
+      "mu6_closed": false,
+      "known_scalar_parametrization": true,
+      "sumsets": [
+        {
+          "m": 1,
+          "coverage": 64,
+          "probability": 0.012817945123172442,
+          "sample_hits": 17,
+          "sample_total": 2000,
+          "representation_min": 1,
+          "representation_max": 1,
+          "representation_mean": 1.0
+        },
+        {
+          "m": 2,
+          "coverage": 1808,
+          "probability": 0.3621069497296215,
+          "sample_hits": 735,
+          "sample_total": 2000,
+          "representation_min": 1,
+          "representation_max": 8,
+          "representation_mean": 2.265486725663717
+        },
+        {
+          "m": 3,
+          "coverage": 4991,
+          "probability": 0.9995994392149009,
+          "sample_hits": 2000,
+          "sample_total": 2000,
+          "representation_min": 6,
+          "representation_max": 123,
+          "representation_mean": 52.52334201562813
+        },
+        {
+          "m": 4,
+          "coverage": 4993,
+          "probability": 1.0,
+          "sample_hits": 2000,
+          "sample_total": 2000,
+          "representation_min": 2536,
+          "representation_max": 5988,
+          "representation_mean": 3360.1474063689166
+        }
+      ]
+    },
+    {
+      "name": "t_height_le_4",
+      "size": 6,
+      "point_size": 6,
+      "unique_x": 3,
+      "unique_t": 1,
+      "negation_closed": true,
+      "mu6_closed": true,
+      "known_scalar_parametrization": true,
+      "sumsets": [
+        {
+          "m": 1,
+          "coverage": 6,
+          "probability": 0.0012016823552974164,
+          "sample_hits": 4,
+          "sample_total": 2000,
+          "representation_min": 1,
+          "representation_max": 1,
+          "representation_mean": 1.0
+        },
+        {
+          "m": 2,
+          "coverage": 19,
+          "probability": 0.0038053274584418186,
+          "sample_hits": 8,
+          "sample_total": 2000,
+          "representation_min": 1,
+          "representation_max": 6,
+          "representation_mean": 1.894736842105263
+        },
+        {
+          "m": 3,
+          "coverage": 37,
+          "probability": 0.0074103745243340674,
+          "sample_hits": 15,
+          "sample_total": 2000,
+          "representation_min": 1,
+          "representation_max": 15,
+          "representation_mean": 5.837837837837838
+        },
+        {
+          "m": 4,
+          "coverage": 61,
+          "probability": 0.012217103945523734,
+          "sample_hits": 27,
+          "sample_total": 2000,
+          "representation_min": 1,
+          "representation_max": 90,
+          "representation_mean": 21.24590163934426
+        }
+      ]
+    },
+    {
+      "name": "t_height_le_8",
+      "size": 18,
+      "point_size": 18,
+      "unique_x": 9,
+      "unique_t": 3,
+      "negation_closed": true,
+      "mu6_closed": true,
+      "known_scalar_parametrization": true,
+      "sumsets": [
+        {
+          "m": 1,
+          "coverage": 18,
+          "probability": 0.0036050470658922492,
+          "sample_hits": 5,
+          "sample_total": 2000,
+          "representation_min": 1,
+          "representation_max": 1,
+          "representation_mean": 1.0
+        },
+        {
+          "m": 2,
+          "coverage": 163,
+          "probability": 0.03264570398557981,
+          "sample_hits": 70,
+          "sample_total": 2000,
+          "representation_min": 1,
+          "representation_max": 18,
+          "representation_mean": 1.9877300613496933
+        },
+        {
+          "m": 3,
+          "coverage": 823,
+          "probability": 0.1648307630682956,
+          "sample_hits": 329,
+          "sample_total": 2000,
+          "representation_min": 1,
+          "representation_max": 51,
+          "representation_mean": 7.086269744835966
+        },
+        {
+          "m": 4,
+          "coverage": 2503,
+          "probability": 0.5013018225515722,
+          "sample_hits": 996,
+          "sample_total": 2000,
+          "representation_min": 1,
+          "representation_max": 918,
+          "representation_mean": 41.940071913703555
+        }
+      ]
+    },
+    {
+      "name": "t_height_le_16",
+      "size": 42,
+      "point_size": 42,
+      "unique_x": 21,
+      "unique_t": 7,
+      "negation_closed": true,
+      "mu6_closed": true,
+      "known_scalar_parametrization": true,
+      "sumsets": [
+        {
+          "m": 1,
+          "coverage": 42,
+          "probability": 0.008411776487081914,
+          "sample_hits": 16,
+          "sample_total": 2000,
+          "representation_min": 1,
+          "representation_max": 1,
+          "representation_mean": 1.0
+        },
+        {
+          "m": 2,
+          "coverage": 817,
+          "probability": 0.1636290807129982,
+          "sample_hits": 311,
+          "sample_total": 2000,
+          "representation_min": 1,
+          "representation_max": 42,
+          "representation_mean": 2.1591187270501835
+        },
+        {
+          "m": 3,
+          "coverage": 4429,
+          "probability": 0.8870418586020429,
+          "sample_hits": 1791,
+          "sample_total": 2000,
+          "representation_min": 1,
+          "representation_max": 159,
+          "representation_mean": 16.727929555204334
+        },
+        {
+          "m": 4,
+          "coverage": 4993,
+          "probability": 1.0,
+          "sample_hits": 2000,
+          "sample_total": 2000,
+          "representation_min": 180,
+          "representation_max": 5742,
+          "representation_mean": 623.2116963749249
+        }
+      ]
+    },
+    {
+      "name": "t_height_le_32",
+      "size": 66,
+      "point_size": 66,
+      "unique_x": 33,
+      "unique_t": 11,
+      "negation_closed": true,
+      "mu6_closed": true,
+      "known_scalar_parametrization": true,
+      "sumsets": [
+        {
+          "m": 1,
+          "coverage": 66,
+          "probability": 0.01321850590827158,
+          "sample_hits": 27,
+          "sample_total": 2000,
+          "representation_min": 1,
+          "representation_max": 1,
+          "representation_mean": 1.0
+        },
+        {
+          "m": 2,
+          "coverage": 1759,
+          "probability": 0.3522932104946926,
+          "sample_hits": 674,
+          "sample_total": 2000,
+          "representation_min": 1,
+          "representation_max": 66,
+          "representation_mean": 2.4764070494599206
+        },
+        {
+          "m": 3,
+          "coverage": 4987,
+          "probability": 0.9987983176447026,
+          "sample_hits": 1999,
+          "sample_total": 2000,
+          "representation_min": 9,
+          "representation_max": 291,
+          "representation_mean": 57.649087627832365
+        },
+        {
+          "m": 4,
+          "coverage": 4993,
+          "probability": 1.0,
+          "sample_hits": 2000,
+          "sample_total": 2000,
+          "representation_min": 2542,
+          "representation_max": 16758,
+          "representation_mean": 3800.267574604446
+        }
+      ]
+    },
+    {
+      "name": "t_height_le_64",
+      "size": 120,
+      "point_size": 120,
+      "unique_x": 60,
+      "unique_t": 20,
+      "negation_closed": true,
+      "mu6_closed": true,
+      "known_scalar_parametrization": true,
+      "sumsets": [
+        {
+          "m": 1,
+          "coverage": 120,
+          "probability": 0.024033647105948328,
+          "sample_hits": 42,
+          "sample_total": 2000,
+          "representation_min": 1,
+          "representation_max": 1,
+          "representation_mean": 1.0
+        },
+        {
+          "m": 2,
+          "coverage": 3907,
+          "probability": 0.7824954936911677,
+          "sample_hits": 1540,
+          "sample_total": 2000,
+          "representation_min": 1,
+          "representation_max": 120,
+          "representation_mean": 3.6856923470693626
+        },
+        {
+          "m": 3,
+          "coverage": 4993,
+          "probability": 1.0,
+          "sample_hits": 2000,
+          "sample_total": 2000,
+          "representation_min": 216,
+          "representation_max": 804,
+          "representation_mean": 346.0845183256559
+        }
+      ]
+    },
+    {
+      "name": "t_height_le_128",
+      "size": 240,
+      "point_size": 240,
+      "unique_x": 120,
+      "unique_t": 40,
+      "negation_closed": true,
+      "mu6_closed": true,
+      "known_scalar_parametrization": true,
+      "sumsets": [
+        {
+          "m": 1,
+          "coverage": 240,
+          "probability": 0.048067294211896656,
+          "sample_hits": 95,
+          "sample_total": 2000,
+          "representation_min": 1,
+          "representation_max": 1,
+          "representation_mean": 1.0
+        },
+        {
+          "m": 2,
+          "coverage": 4993,
+          "probability": 1.0,
+          "sample_hits": 2000,
+          "sample_total": 2000,
+          "representation_min": 2,
+          "representation_max": 240,
+          "representation_mean": 11.536150610855197
+        }
+      ]
+    },
+    {
+      "name": "t_height_le_256",
+      "size": 480,
+      "point_size": 480,
+      "unique_x": 240,
+      "unique_t": 80,
+      "negation_closed": true,
+      "mu6_closed": true,
+      "known_scalar_parametrization": true,
+      "sumsets": [
+        {
+          "m": 1,
+          "coverage": 480,
+          "probability": 0.09613458842379331,
+          "sample_hits": 209,
+          "sample_total": 2000,
+          "representation_min": 1,
+          "representation_max": 1,
+          "representation_mean": 1.0
+        },
+        {
+          "m": 2,
+          "coverage": 4993,
+          "probability": 1.0,
+          "sample_hits": 2000,
+          "sample_total": 2000,
+          "representation_min": 18,
+          "representation_max": 480,
+          "representation_mean": 46.14460244342079
+        }
+      ]
+    },
+    {
+      "name": "x_height_le_4",
+      "size": 12,
+      "point_size": 12,
+      "unique_x": 6,
+      "unique_t": 6,
+      "negation_closed": true,
+      "mu6_closed": false,
+      "known_scalar_parametrization": true,
+      "sumsets": [
+        {
+          "m": 1,
+          "coverage": 12,
+          "probability": 0.002403364710594833,
+          "sample_hits": 6,
+          "sample_total": 2000,
+          "representation_min": 1,
+          "representation_max": 1,
+          "representation_mean": 1.0
+        },
+        {
+          "m": 2,
+          "coverage": 73,
+          "probability": 0.014620468656118567,
+          "sample_hits": 45,
+          "sample_total": 2000,
+          "representation_min": 1,
+          "representation_max": 12,
+          "representation_mean": 1.9726027397260273
+        },
+        {
+          "m": 3,
+          "coverage": 304,
+          "probability": 0.0608852393350691,
+          "sample_hits": 124,
+          "sample_total": 2000,
+          "representation_min": 1,
+          "representation_max": 33,
+          "representation_mean": 5.684210526315789
+        },
+        {
+          "m": 4,
+          "coverage": 927,
+          "probability": 0.18565992389345082,
+          "sample_hits": 366,
+          "sample_total": 2000,
+          "representation_min": 1,
+          "representation_max": 396,
+          "representation_mean": 22.368932038834952
+        }
+      ]
+    },
+    {
+      "name": "x_height_le_8",
+      "size": 20,
+      "point_size": 20,
+      "unique_x": 10,
+      "unique_t": 10,
+      "negation_closed": true,
+      "mu6_closed": false,
+      "known_scalar_parametrization": true,
+      "sumsets": [
+        {
+          "m": 1,
+          "coverage": 20,
+          "probability": 0.004005607850991388,
+          "sample_hits": 8,
+          "sample_total": 2000,
+          "representation_min": 1,
+          "representation_max": 1,
+          "representation_mean": 1.0
+        },
+        {
+          "m": 2,
+          "coverage": 195,
+          "probability": 0.03905467654716603,
+          "sample_hits": 98,
+          "sample_total": 2000,
+          "representation_min": 1,
+          "representation_max": 20,
+          "representation_mean": 2.051282051282051
+        },
+        {
+          "m": 3,
+          "coverage": 1148,
+          "probability": 0.22992189064690566,
+          "sample_hits": 464,
+          "sample_total": 2000,
+          "representation_min": 1,
+          "representation_max": 63,
+          "representation_mean": 6.968641114982578
+        },
+        {
+          "m": 4,
+          "coverage": 3631,
+          "probability": 0.7272181053474864,
+          "sample_hits": 1482,
+          "sample_total": 2000,
+          "representation_min": 1,
+          "representation_max": 1188,
+          "representation_mean": 44.064995868906635
+        }
+      ]
+    },
+    {
+      "name": "x_height_le_16",
+      "size": 36,
+      "point_size": 36,
+      "unique_x": 18,
+      "unique_t": 18,
+      "negation_closed": true,
+      "mu6_closed": false,
+      "known_scalar_parametrization": true,
+      "sumsets": [
+        {
+          "m": 1,
+          "coverage": 36,
+          "probability": 0.0072100941317844985,
+          "sample_hits": 16,
+          "sample_total": 2000,
+          "representation_min": 1,
+          "representation_max": 1,
+          "representation_mean": 1.0
+        },
+        {
+          "m": 2,
+          "coverage": 585,
+          "probability": 0.1171640296414981,
+          "sample_hits": 254,
+          "sample_total": 2000,
+          "representation_min": 1,
+          "representation_max": 36,
+          "representation_mean": 2.2153846153846155
+        },
+        {
+          "m": 3,
+          "coverage": 3676,
+          "probability": 0.7362307230122171,
+          "sample_hits": 1467,
+          "sample_total": 2000,
+          "representation_min": 1,
+          "representation_max": 135,
+          "representation_mean": 12.692056583242655
+        },
+        {
+          "m": 4,
+          "coverage": 4993,
+          "probability": 1.0,
+          "sample_hits": 2000,
+          "sample_total": 2000,
+          "representation_min": 12,
+          "representation_max": 4356,
+          "representation_mean": 336.39415181253753
+        }
+      ]
+    },
+    {
+      "name": "x_height_le_32",
+      "size": 72,
+      "point_size": 72,
+      "unique_x": 36,
+      "unique_t": 36,
+      "negation_closed": true,
+      "mu6_closed": false,
+      "known_scalar_parametrization": true,
+      "sumsets": [
+        {
+          "m": 1,
+          "coverage": 72,
+          "probability": 0.014420188263568997,
+          "sample_hits": 29,
+          "sample_total": 2000,
+          "representation_min": 1,
+          "representation_max": 1,
+          "representation_mean": 1.0
+        },
+        {
+          "m": 2,
+          "coverage": 2035,
+          "probability": 0.4075705988383737,
+          "sample_hits": 811,
+          "sample_total": 2000,
+          "representation_min": 1,
+          "representation_max": 72,
+          "representation_mean": 2.5474201474201474
+        },
+        {
+          "m": 3,
+          "coverage": 4993,
+          "probability": 1.0,
+          "sample_hits": 2000,
+          "sample_total": 2000,
+          "representation_min": 21,
+          "representation_max": 321,
+          "representation_mean": 74.75425595834167
+        }
+      ]
+    },
+    {
+      "name": "x_height_le_64",
+      "size": 150,
+      "point_size": 150,
+      "unique_x": 75,
+      "unique_t": 75,
+      "negation_closed": true,
+      "mu6_closed": false,
+      "known_scalar_parametrization": true,
+      "sumsets": [
+        {
+          "m": 1,
+          "coverage": 150,
+          "probability": 0.03004205888243541,
+          "sample_hits": 58,
+          "sample_total": 2000,
+          "representation_min": 1,
+          "representation_max": 1,
+          "representation_mean": 1.0
+        },
+        {
+          "m": 2,
+          "coverage": 4525,
+          "probability": 0.9062687762868015,
+          "sample_hits": 1811,
+          "sample_total": 2000,
+          "representation_min": 1,
+          "representation_max": 150,
+          "representation_mean": 4.972375690607735
+        },
+        {
+          "m": 3,
+          "coverage": 4993,
+          "probability": 1.0,
+          "sample_hits": 2000,
+          "sample_total": 2000,
+          "representation_min": 465,
+          "representation_max": 1227,
+          "representation_mean": 675.9463248547967
+        }
+      ]
+    },
+    {
+      "name": "x_height_le_128",
+      "size": 244,
+      "point_size": 244,
+      "unique_x": 122,
+      "unique_t": 120,
+      "negation_closed": true,
+      "mu6_closed": false,
+      "known_scalar_parametrization": true,
+      "sumsets": [
+        {
+          "m": 1,
+          "coverage": 244,
+          "probability": 0.048868415782094936,
+          "sample_hits": 86,
+          "sample_total": 2000,
+          "representation_min": 1,
+          "representation_max": 1,
+          "representation_mean": 1.0
+        },
+        {
+          "m": 2,
+          "coverage": 4983,
+          "probability": 0.9979971960745043,
+          "sample_hits": 1992,
+          "sample_total": 2000,
+          "representation_min": 1,
+          "representation_max": 244,
+          "representation_mean": 11.94782259682922
+        },
+        {
+          "m": 3,
+          "coverage": 4993,
+          "probability": 1.0,
+          "sample_hits": 2000,
+          "sample_total": 2000,
+          "representation_min": 2358,
+          "representation_max": 3846,
+          "representation_mean": 2909.430002002804
+        }
+      ]
+    }
+  ],
+  "target_decompositions": [
+    {
+      "terms": null,
+      "group_additions": 14,
+      "factor_base": "quotient_prefix_4",
+      "factor_base_size": 4
+    },
+    {
+      "terms": null,
+      "group_additions": 27,
+      "factor_base": "t_height_le_4",
+      "factor_base_size": 6
+    },
+    {
+      "terms": null,
+      "group_additions": 44,
+      "factor_base": "quotient_prefix_8",
+      "factor_base_size": 8
+    },
+    {
+      "terms": null,
+      "group_additions": 90,
+      "factor_base": "x_height_le_4",
+      "factor_base_size": 12
+    },
+    {
+      "terms": null,
+      "group_additions": 104,
+      "factor_base": "suborbit13_reps",
+      "factor_base_size": 13
+    },
+    {
+      "terms": null,
+      "group_additions": 104,
+      "factor_base": "quotient_prefix_13",
+      "factor_base_size": 13
+    },
+    {
+      "terms": null,
+      "group_additions": 152,
+      "factor_base": "quotient_prefix_16",
+      "factor_base_size": 16
+    },
+    {
+      "terms": null,
+      "group_additions": 189,
+      "factor_base": "t_height_le_8",
+      "factor_base_size": 18
+    },
+    {
+      "terms": null,
+      "group_additions": 230,
+      "factor_base": "x_height_le_8",
+      "factor_base_size": 20
+    },
+    {
+      "terms": 3,
+      "scalars": [
+        3104,
+        4223,
+        1621
+      ],
+      "derived_k": 3955,
+      "group_additions": 544,
+      "factor_base": "quotient_prefix_32",
+      "factor_base_size": 32,
+      "point_verification": true
+    },
+    {
+      "terms": 3,
+      "scalars": [
+        1223,
+        2707,
+        25
+      ],
+      "derived_k": 3955,
+      "group_additions": 668,
+      "factor_base": "x_height_le_16",
+      "factor_base_size": 36,
+      "point_verification": true
+    },
+    {
+      "terms": null,
+      "group_additions": 945,
+      "factor_base": "t_height_le_16",
+      "factor_base_size": 42
+    },
+    {
+      "terms": 3,
+      "scalars": [
+        908,
+        2836,
+        211
+      ],
+      "derived_k": 3955,
+      "group_additions": 2084,
+      "factor_base": "suborbit64_reps",
+      "factor_base_size": 64,
+      "point_verification": true
+    },
+    {
+      "terms": 3,
+      "scalars": [
+        4069,
+        4878,
+        1
+      ],
+      "derived_k": 3955,
+      "group_additions": 2081,
+      "factor_base": "quotient_prefix_64",
+      "factor_base_size": 64,
+      "point_verification": true
+    },
+    {
+      "terms": 3,
+      "scalars": [
+        1556,
+        2301,
+        98
+      ],
+      "derived_k": 3955,
+      "group_additions": 2216,
+      "factor_base": "t_height_le_32",
+      "factor_base_size": 66,
+      "point_verification": true
+    },
+    {
+      "terms": 2,
+      "scalars": [
+        1920,
+        2035
+      ],
+      "derived_k": 3955,
+      "group_additions": 2628,
+      "factor_base": "x_height_le_32",
+      "factor_base_size": 72,
+      "point_verification": true
+    },
+    {
+      "terms": 2,
+      "scalars": [
+        4474,
+        4474
+      ],
+      "derived_k": 3955,
+      "group_additions": 3081,
+      "factor_base": "suborbit13_mu6_saturated",
+      "factor_base_size": 78,
+      "point_verification": true
+    },
+    {
+      "terms": 3,
+      "scalars": [
+        517,
+        3437,
+        1
+      ],
+      "derived_k": 3955,
+      "group_additions": 7261,
+      "factor_base": "t_height_le_64",
+      "factor_base_size": 120,
+      "point_verification": true
+    },
+    {
+      "terms": 2,
+      "scalars": [
+        1477,
+        2478
+      ],
+      "derived_k": 3955,
+      "group_additions": 11325,
+      "factor_base": "x_height_le_64",
+      "factor_base_size": 150,
+      "point_verification": true
+    },
+    {
+      "terms": 2,
+      "scalars": [
+        667,
+        3288
+      ],
+      "derived_k": 3955,
+      "group_additions": 28920,
+      "factor_base": "t_height_le_128",
+      "factor_base_size": 240,
+      "point_verification": true
+    },
+    {
+      "terms": 2,
+      "scalars": [
+        1477,
+        2478
+      ],
+      "derived_k": 3955,
+      "group_additions": 29890,
+      "factor_base": "x_height_le_128",
+      "factor_base_size": 244,
+      "point_verification": true
+    },
+    {
+      "terms": 2,
+      "scalars": [
+        153,
+        3802
+      ],
+      "derived_k": 3955,
+      "group_additions": 73920,
+      "factor_base": "suborbit64_mu6_saturated",
+      "factor_base_size": 384,
+      "point_verification": true
+    }
+  ],
+  "first_target_solution": {
+    "terms": 3,
+    "scalars": [
+      3104,
+      4223,
+      1621
+    ],
+    "derived_k": 3955,
+    "group_additions": 544,
+    "factor_base": "quotient_prefix_32",
+    "factor_base_size": 32,
+    "point_verification": true
+  },
+  "phase_from_derived_solution": {
+    "derived_k": 3955,
+    "quotient_index": 616,
+    "phase64": 56,
+    "phase13": 5,
+    "predecessor_index": 333,
+    "phase64_predecessor": 63,
+    "phase13_predecessor": 8,
+    "held_out_k_match": true
+  },
+  "semaev": {
+    "S3": {
+      "degrees": [
+        2,
+        2,
+        2
+      ],
+      "total_degree": 4,
+      "terms": 9
+    },
+    "S4": {
+      "degrees": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "total_degree": 12,
+      "terms": 191,
+      "construction_seconds": 0.18653811199999382
+    },
+    "benchmarks": [
+      {
+        "factor_base": "t_height_le_4",
+        "x_degree": 3,
+        "S3_specialized_degrees": [
+          2,
+          2
+        ],
+        "bezout_monomial_bound": 16,
+        "groebner_status": "completed",
+        "groebner_seconds": 0.0055800330000010945,
+        "basis_count": 1,
+        "basis_degrees": [
+          0
+        ],
+        "basis_terms": [
+          1
+        ],
+        "resultant_status": "completed",
+        "resultant_seconds": 0.00573717599999668,
+        "resultant_degree": 6,
+        "resultant_terms": 7,
+        "gcd_degree": 0
+      },
+      {
+        "factor_base": "t_height_le_8",
+        "x_degree": 9,
+        "S3_specialized_degrees": [
+          2,
+          2
+        ],
+        "bezout_monomial_bound": 100,
+        "groebner_status": "completed",
+        "groebner_seconds": 0.009849466000005691,
+        "basis_count": 1,
+        "basis_degrees": [
+          0
+        ],
+        "basis_terms": [
+          1
+        ],
+        "resultant_status": "completed",
+        "resultant_seconds": 0.012255093999996802,
+        "resultant_degree": 18,
+        "resultant_terms": 19,
+        "gcd_degree": 0
+      },
+      {
+        "factor_base": "x_height_le_16",
+        "x_degree": 18,
+        "S3_specialized_degrees": [
+          2,
+          2
+        ],
+        "bezout_monomial_bound": 361,
+        "groebner_status": "completed",
+        "groebner_seconds": 0.06002561100000037,
+        "basis_count": 1,
+        "basis_degrees": [
+          0
+        ],
+        "basis_terms": [
+          1
+        ],
+        "resultant_status": "completed",
+        "resultant_seconds": 0.03363589999999306,
+        "resultant_degree": 36,
+        "resultant_terms": 37,
+        "gcd_degree": 0
+      },
+      {
+        "factor_base": "t_height_le_32",
+        "x_degree": 33,
+        "S3_specialized_degrees": [
+          2,
+          2
+        ],
+        "bezout_monomial_bound": 1156,
+        "groebner_status": "completed",
+        "groebner_seconds": 0.22934725999999728,
+        "basis_count": 1,
+        "basis_degrees": [
+          0
+        ],
+        "basis_terms": [
+          1
+        ],
+        "resultant_status": "completed",
+        "resultant_seconds": 0.11551171399999305,
+        "resultant_degree": 66,
+        "resultant_terms": 67,
+        "gcd_degree": 0
+      },
+      {
+        "factor_base": "suborbit13_mu6_saturated",
+        "x_degree": 39,
+        "S3_specialized_degrees": [
+          2,
+          2
+        ],
+        "bezout_monomial_bound": 1600,
+        "groebner_status": "completed",
+        "groebner_seconds": 0.36285448200000303,
+        "basis_count": 2,
+        "basis_degrees": [
+          1,
+          1
+        ],
+        "basis_terms": [
+          2,
+          2
+        ],
+        "resultant_status": "completed",
+        "resultant_seconds": 0.1801064960000076,
+        "resultant_degree": 78,
+        "resultant_terms": 79,
+        "gcd_degree": 1
+      }
+    ]
+  },
+  "branch_factor_base": {
+    "theta_graph_vertices": 769,
+    "theta_graph_edges": 832,
+    "degree_histogram": {
+      "2": 709,
+      "4": 57,
+      "6": 3
+    },
+    "branch_values": 60,
+    "branch_preimage_quotient_classes": 123,
+    "mu6_saturated_point_upper_count": 738,
+    "empirical_decomposition_probability": "not_computed_without_nested branch-index CSV",
+    "disqualification": "Membership in this factor base is defined by global collisions of Omega_1 over the complete orbit; the corpus has no point-local membership predicate. Constructing the set currently requires the very orbit scan an index-calculus factor base must avoid."
+  },
+  "kani": {
+    "cm_roots": [
+      {
+        "zeta": 311,
+        "lambda_mod_N": 2342,
+        "lambda_poly": 0,
+        "point": [
+          622,
+          530
+        ]
+      },
+      {
+        "zeta": 4795,
+        "lambda_mod_N": 2650,
+        "lambda_poly": 0,
+        "point": [
+          4483,
+          530
+        ]
+      }
+    ],
+    "chosen_zeta": 311,
+    "chosen_lambda": 2342,
+    "rank_test_symbolic_determinant": "det([[1,lambda],[k,k*lambda]]) = 0",
+    "random_rank_tests": [
+      {
+        "k": 2,
+        "det": 0
+      },
+      {
+        "k": 7,
+        "det": 0
+      },
+      {
+        "k": 123,
+        "det": 0
+      },
+      {
+        "k": 2026,
+        "det": 0
+      }
+    ],
+    "available_unknown_map_images": 1,
+    "omega_image_is_redundant": true,
+    "required_auxiliary_torsion_basis_rank": 2,
+    "torsion_inventory": [
+      {
+        "m": 2,
+        "gcd_m_group_order": 1,
+        "frobenius_matrix": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "full_torsion_extension_degree": 3,
+        "rational_m_torsion_points": 1
+      },
+      {
+        "m": 4,
+        "gcd_m_group_order": 1,
+        "frobenius_matrix": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "full_torsion_extension_degree": 6,
+        "rational_m_torsion_points": 1
+      },
+      {
+        "m": 8,
+        "gcd_m_group_order": 1,
+        "frobenius_matrix": [
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "full_torsion_extension_degree": 12,
+        "rational_m_torsion_points": 1
+      },
+      {
+        "m": 16,
+        "gcd_m_group_order": 1,
+        "frobenius_matrix": [
+          [
+            0,
+            13
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "full_torsion_extension_degree": 24,
+        "rational_m_torsion_points": 1
+      },
+      {
+        "m": 32,
+        "gcd_m_group_order": 1,
+        "frobenius_matrix": [
+          [
+            0,
+            13
+          ],
+          [
+            1,
+            19
+          ]
+        ],
+        "full_torsion_extension_degree": 48,
+        "rational_m_torsion_points": 1
+      },
+      {
+        "m": 64,
+        "gcd_m_group_order": 1,
+        "frobenius_matrix": [
+          [
+            0,
+            13
+          ],
+          [
+            1,
+            51
+          ]
+        ],
+        "full_torsion_extension_degree": 96,
+        "rational_m_torsion_points": 1
+      },
+      {
+        "m": 128,
+        "gcd_m_group_order": 1,
+        "frobenius_matrix": [
+          [
+            0,
+            13
+          ],
+          [
+            1,
+            115
+          ]
+        ],
+        "full_torsion_extension_degree": 192,
+        "rational_m_torsion_points": 1
+      },
+      {
+        "m": 3,
+        "gcd_m_group_order": 1,
+        "frobenius_matrix": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "full_torsion_extension_degree": 6,
+        "rational_m_torsion_points": 1
+      },
+      {
+        "m": 13,
+        "gcd_m_group_order": 1,
+        "frobenius_matrix": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            11
+          ]
+        ],
+        "full_torsion_extension_degree": 12,
+        "rational_m_torsion_points": 1
+      }
+    ],
+    "structural_gap": "Kani graph kernels require the unknown map on a basis of smooth prime-power torsion; P=[k]G and omega(P) provide only one dependent N-torsion eigenline and no images on auxiliary torsion."
+  },
+  "cheon": {
+    "N_minus_1_factorization": [
+      [
+        2,
+        7
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        13,
+        1
+      ]
+    ],
+    "best_d_if_auxiliary_existed": [
+      {
+        "d": 78,
+        "estimated_given_auxiliary": 16.83256210825484
+      },
+      {
+        "d": 64,
+        "estimated_given_auxiliary": 16.832645413464757
+      },
+      {
+        "d": 96,
+        "estimated_given_auxiliary": 17.009783751773647
+      },
+      {
+        "d": 52,
+        "estimated_given_auxiliary": 17.01004283900152
+      },
+      {
+        "d": 104,
+        "estimated_given_auxiliary": 17.12693615332443
+      },
+      {
+        "d": 48,
+        "estimated_given_auxiliary": 17.12726364451629
+      },
+      {
+        "d": 128,
+        "estimated_given_auxiliary": 17.559331966661947
+      },
+      {
+        "d": 39,
+        "estimated_given_auxiliary": 17.559839624583056
+      },
+      {
+        "d": 156,
+        "estimated_given_auxiliary": 18.147416809889123
+      },
+      {
+        "d": 32,
+        "estimated_given_auxiliary": 18.14810118484675
+      }
+    ],
+    "known_endomorphism_scalars": [
+      1,
+      114,
+      2342,
+      2343,
+      2344,
+      2650,
+      2651,
+      2652,
+      4992
+    ],
+    "nonlinear_auxiliary_match_tests": [
+      {
+        "d": 2,
+        "best_fixed_endomorphism_scalar": 1,
+        "matching_nonzero_secrets": 1,
+        "fraction": 0.00020032051282051281
+      },
+      {
+        "d": 3,
+        "best_fixed_endomorphism_scalar": 1,
+        "matching_nonzero_secrets": 2,
+        "fraction": 0.00040064102564102563
+      },
+      {
+        "d": 4,
+        "best_fixed_endomorphism_scalar": 1,
+        "matching_nonzero_secrets": 3,
+        "fraction": 0.0006009615384615385
+      },
+      {
+        "d": 6,
+        "best_fixed_endomorphism_scalar": 1,
+        "matching_nonzero_secrets": 1,
+        "fraction": 0.00020032051282051281
+      },
+      {
+        "d": 8,
+        "best_fixed_endomorphism_scalar": 1,
+        "matching_nonzero_secrets": 1,
+        "fraction": 0.00020032051282051281
+      },
+      {
+        "d": 13,
+        "best_fixed_endomorphism_scalar": 1,
+        "matching_nonzero_secrets": 12,
+        "fraction": 0.002403846153846154
+      },
+      {
+        "d": 16,
+        "best_fixed_endomorphism_scalar": 1,
+        "matching_nonzero_secrets": 3,
+        "fraction": 0.0006009615384615385
+      },
+      {
+        "d": 32,
+        "best_fixed_endomorphism_scalar": 1,
+        "matching_nonzero_secrets": 1,
+        "fraction": 0.00020032051282051281
+      },
+      {
+        "d": 64,
+        "best_fixed_endomorphism_scalar": 1,
+        "matching_nonzero_secrets": 3,
+        "fraction": 0.0006009615384615385
+      },
+      {
+        "d": 128,
+        "best_fixed_endomorphism_scalar": 1,
+        "matching_nonzero_secrets": 1,
+        "fraction": 0.00020032051282051281
+      },
+      {
+        "d": 384,
+        "best_fixed_endomorphism_scalar": 1,
+        "matching_nonzero_secrets": 1,
+        "fraction": 0.00020032051282051281
+      },
+      {
+        "d": 416,
+        "best_fixed_endomorphism_scalar": 1,
+        "matching_nonzero_secrets": 1,
+        "fraction": 0.00020032051282051281
+      }
+    ],
+    "affine_closure_states_tested": 1002,
+    "theorem": "Starting from G and P=[k]G, group addition and fixed CM endomorphisms produce only [a+b*k]G. They cannot produce [k^d]G for d>1 without a k-dependent operation."
+  },
+  "glv": {
+    "lambda": 2342,
+    "kernel_lattice_basis_initial": [
+      [
+        4993,
+        0
+      ],
+      [
+        -2342,
+        1
+      ]
+    ],
+    "gauss_reduced_basis": [
+      [
+        49,
+        -32
+      ],
+      [
+        32,
+        81
+      ]
+    ],
+    "determinant": 4993,
+    "max_minimal_Linf_bound": 40,
+    "mean_minimal_Linf": 24.722611656318847,
+    "representation_count_in_box": 6561,
+    "group_order": 4993,
+    "target_solution": {
+      "a": 19,
+      "b": 23,
+      "derived_k": 3955,
+      "lookups": 64,
+      "table_size": 81,
+      "verification": true,
+      "held_out_k_match": true
+    },
+    "complexity": "A one-dimensional MITM table and one-dimensional scan each have 2B+1 = Theta(sqrt(N)) entries; CM gives a constant-factor GLV decomposition, not a sub-square-root algorithm."
+  }
+}

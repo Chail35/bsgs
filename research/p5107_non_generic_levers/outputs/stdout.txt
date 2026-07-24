@@ -1,0 +1,170 @@
+{
+  "bundle": "/home/runner/work/bsgs/bsgs/research/p5107_non_generic_levers/outputs/p5107_non_generic_levers_20260724.zip",
+  "sha256": "6eddf8a64c833d4dcf351f60da4339cfece1eb62fc597806642337fbb7b9b619",
+  "first_solution": {
+    "terms": 3,
+    "scalars": [
+      3104,
+      4223,
+      1621
+    ],
+    "derived_k": 3955,
+    "group_additions": 544,
+    "factor_base": "quotient_prefix_32",
+    "factor_base_size": 32,
+    "point_verification": true
+  },
+  "phase": {
+    "derived_k": 3955,
+    "quotient_index": 616,
+    "phase64": 56,
+    "phase13": 5,
+    "predecessor_index": 333,
+    "phase64_predecessor": 63,
+    "phase13_predecessor": 8,
+    "held_out_k_match": true
+  },
+  "cm_lambda": 2342,
+  "glv_B": 40,
+  "semaev": {
+    "S3": {
+      "degrees": [
+        2,
+        2,
+        2
+      ],
+      "total_degree": 4,
+      "terms": 9
+    },
+    "S4": {
+      "degrees": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "total_degree": 12,
+      "terms": 191,
+      "construction_seconds": 0.18653811199999382
+    },
+    "benchmarks": [
+      {
+        "factor_base": "t_height_le_4",
+        "x_degree": 3,
+        "S3_specialized_degrees": [
+          2,
+          2
+        ],
+        "bezout_monomial_bound": 16,
+        "groebner_status": "completed",
+        "groebner_seconds": 0.0055800330000010945,
+        "basis_count": 1,
+        "basis_degrees": [
+          0
+        ],
+        "basis_terms": [
+          1
+        ],
+        "resultant_status": "completed",
+        "resultant_seconds": 0.00573717599999668,
+        "resultant_degree": 6,
+        "resultant_terms": 7,
+        "gcd_degree": 0
+      },
+      {
+        "factor_base": "t_height_le_8",
+        "x_degree": 9,
+        "S3_specialized_degrees": [
+          2,
+          2
+        ],
+        "bezout_monomial_bound": 100,
+        "groebner_status": "completed",
+        "groebner_seconds": 0.009849466000005691,
+        "basis_count": 1,
+        "basis_degrees": [
+          0
+        ],
+        "basis_terms": [
+          1
+        ],
+        "resultant_status": "completed",
+        "resultant_seconds": 0.012255093999996802,
+        "resultant_degree": 18,
+        "resultant_terms": 19,
+        "gcd_degree": 0
+      },
+      {
+        "factor_base": "x_height_le_16",
+        "x_degree": 18,
+        "S3_specialized_degrees": [
+          2,
+          2
+        ],
+        "bezout_monomial_bound": 361,
+        "groebner_status": "completed",
+        "groebner_seconds": 0.06002561100000037,
+        "basis_count": 1,
+        "basis_degrees": [
+          0
+        ],
+        "basis_terms": [
+          1
+        ],
+        "resultant_status": "completed",
+        "resultant_seconds": 0.03363589999999306,
+        "resultant_degree": 36,
+        "resultant_terms": 37,
+        "gcd_degree": 0
+      },
+      {
+        "factor_base": "t_height_le_32",
+        "x_degree": 33,
+        "S3_specialized_degrees": [
+          2,
+          2
+        ],
+        "bezout_monomial_bound": 1156,
+        "groebner_status": "completed",
+        "groebner_seconds": 0.22934725999999728,
+        "basis_count": 1,
+        "basis_degrees": [
+          0
+        ],
+        "basis_terms": [
+          1
+        ],
+        "resultant_status": "completed",
+        "resultant_seconds": 0.11551171399999305,
+        "resultant_degree": 66,
+        "resultant_terms": 67,
+        "gcd_degree": 0
+      },
+      {
+        "factor_base": "suborbit13_mu6_saturated",
+        "x_degree": 39,
+        "S3_specialized_degrees": [
+          2,
+          2
+        ],
+        "bezout_monomial_bound": 1600,
+        "groebner_status": "completed",
+        "groebner_seconds": 0.36285448200000303,
+        "basis_count": 2,
+        "basis_degrees": [
+          1,
+          1
+        ],
+        "basis_terms": [
+          2,
+          2
+        ],
+        "resultant_status": "completed",
+        "resultant_seconds": 0.1801064960000076,
+        "resultant_degree": 78,
+        "resultant_terms": 79,
+        "gcd_degree": 1
+      }
+    ]
+  }
+}
